@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<body>
+	<meta charset="utf-8">
+	<script type="text/javascript" language="javascript" src="java.js"></script>
+	<link href="add.css" rel="stylesheet">
+	
+
+<form dir="rtl">
+<fieldset>
+<table border="5cm" align="right" width="300" height="500">
+	<legend style="color: aliceblue" align="center">
+		<p>فرم</p>	
+	</legend>
+	<tr>
+		<td><lable>نام دانشجو</lable></td>
+		<td><input type="text"></td>
+	</tr>
+	<tr>	
+		<td><lable>نام خانوادگی</lable></td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>	
+		<td><lable>رمز عبور</lable></td>
+		<td><input type="password" name="pass"></td>
+	</tr>
+	<tr>
+		<td><lable>جنسیت</lable></td>
+		<td>
+		<input type="radio" name="gender">مرد
+		<input type="radio" name="gender">زن
+		</td>
+	</tr>
+	<tr>	
+		<td><label>سن</label></td>
+		<td><input type="date"></td>
+	</tr>
+	<tr>	
+		<td><label>رشته</label></td>
+	<td>
+		<lable>کامپیوتر</lable>
+		<input type="radio" name="job"><br>
+		<lable>حسابداری</lable>
+		<input type="radio" name="job"><br>
+		<lable>معماری</lable>
+		<input type="radio" name="job"><br>
+		<lable>هنر</lable>
+		<input type="radio" name="job"><br>
+	</td>
+	</tr>
+	<tr>	
+	<td><lable>توضیحات</lable></td>
+	<td><textarea></textarea></td>
+	</tr>
+	<tr>	
+	<td><lable>ایمیل</lable></td>
+	<td><input type="email" name="mail"></td>
+	</tr>
+ 	<tr> 
+		<td><label>گروه</label></td>
+	<td>
+	<select>
+    	<optgroup label="گروه 1" style="background-color:crimson ">
+      <option>گروه الف</option>
+      <option>گروه ب</option>
+    	</optgroup>
+    	<optgroup label="گروه 2" style="background-color: aqua">
+      <option>گروه الف</option>
+      <option>گروه ب</option>
+    	</optgroup>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td><button onclick="end()">تایید</button></td>
+	</tr>
+</table>
+</fieldset>
+</form>
+
+</body>
+</html>

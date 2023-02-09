@@ -1,0 +1,16 @@
+
+.side {
+        flex: 20%;
+        min-width: 100px;
+        max-width: 300px;
+    }
+/* -------------------------COLORS------------------------- */
+:root{
+    --body-bg: #e6e6e6;
+    --Head-bg: #BB000E;
+    --side-bg: #161616;
+    --black-col: #000000;
+    --white-col: #fff;
+
+    
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-style: none;
+    outline: none;
+}
+.main{
+    background-color: var(--body-bg);
+    background: radial-gradient(rgb(54, 54, 54),black);
+}
+hr{
+    height: 2px;
+}
+.header{
+    background-color: var(--Head-bg);
+    color: var(--white-col);
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 5px;
+}
+/* --------Navbar---------- */
+.page{
+    display: flex;
+}
+
+.side{
+    flex: 30%;
+    text-align: center;
+    background-color: var(--side-bg);
+    height: 87.5vh;
+
+}
+.side-link{
+    margin: 5px 0;
+    color: var(--white-col);
+    width: 100%;
+    background-color: inherit;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    font-weight: bold;
+}
+.side-link:hover{
+    background-color: #2C2C2C;
+}
+.main{
+    flex: 70%;
+    padding: 20px;
+    color:var(--white-col);
+    
+}

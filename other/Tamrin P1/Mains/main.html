@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamrin P1</title>
+    <!------------------------------------------------------------------->
+    <style>
+hr{
+    border-width: 5px;
+}
+#a{
+    font-style: italic;
+}
+#img{
+    width: 400px;
+    height: 100px;
+}
+#map{
+    height: 400px;
+    width:  700px;
+}
+#list-left{
+    float: left;
+}
+#list-right{
+
+    margin-left: 400px;
+}
+table,tr,td{
+    border: 5px solid black ;
+    font-size: 20px;
+    color: white;
+}
+    </style>
+    <!------------------------------------------------------------------->
+</head>
+<body>
+    <h1>Stylish Words</h1>
+    <div>
+        <p id="a">Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Obcaecati<br>
+        voluptates non <span style="color: red;">labore</span>  et nostrum optio aspernatur dolorum veniam fugit
+        incidunt, doloremque quidem repellendus soluta quaerat amet rem at 
+        praesentium sed</p>
+        <h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6>
+    </div>
+<hr><!------------------------------------------------------------------->
+    <h1>Picture Mapping</h1>
+    <div>
+        <h3>Click On Earth to Open Google Map</h3>
+        <img src="../Images/Earth.jpg" usemap="#earth-map" id="map">
+    
+        <map name="earth-map" title="Map">
+            <area shape="circle" coords="350,200,150" href="https://www.google.com/maps" alt=""> 
+        </map>
+        <h5>If You Hold Shift And Hold Click On Earth It will Show Where Is The Coord Of Map</h5>
+    </div>
+<hr><!-------------------------------------------------------------->
+    <h1>list</h1>
+    <div>
+        <div id="list-left">
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+            <ol>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+            <ol type="I">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+        </div>
+        <div id="list-right">
+            <ol type="A">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+            <ol start="4">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+            <dl>
+                <dt>one</dt>
+                <dd>two</dd>
+                <dd>three</dd>
+            </dl>
+        </div>
+    </div><br>
+<hr><!-------------------------------------------------------------->
+    <h1>Responsive</h1>
+    <picture>
+        <source srcset="../Images/background.webp" media="(min-width:800px)">
+        <source srcset="../Images/pic.jpg" media="(min-width:600px)">
+        <img src="../Images/Earth.jpg">
+    </picture>
+<hr><!-------------------------------------------------------------->
+    <h1>Table</h1>
+    <table>
+        <colgroup>
+        <col style="background-color: darkblue;">
+        <col style="background-color: darkred;">
+        <col style="background-color: darkgreen;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Head1</th>
+                <th>Head2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data1</td>
+                <td>Data2</td>
+                <td rowspan="2">Data1</td>
+            </tr>
+            <tr>
+                <td>Data3</td>
+                <td>Data4</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
